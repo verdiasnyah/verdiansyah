@@ -46,8 +46,9 @@
     <!-- Header / Navbar -->
     <header class="fixed top-0 left-0 w-full z-50 glass-effect border-b border-gray-200 dark:border-slate-800 transition-colors">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <a href="#" class="text-xl font-bold text-primary dark:text-blue-400 tracking-tight">
-                Muhammad<span class="text-gray-800 dark:text-white">Verdiansyah</span>
+            <a href="#" class="text-xl font-bold text-primary dark:text-blue-400 tracking-tight flex items-center gap-2">
+                <i class="fas fa-futbol text-primary dark:text-blue-400"></i>
+                <span>Muhammad<span class="text-gray-800 dark:text-white">Verdiansyah</span></span>
             </a>
             
             <!-- Navigation Links -->
@@ -57,6 +58,7 @@
                 <a href="#experience" class="hover:text-primary dark:hover:text-blue-400 transition">Pengalaman</a>
                 <a href="#education" class="hover:text-primary dark:hover:text-blue-400 transition">Pendidikan</a>
                 <a href="#certificates" class="hover:text-primary dark:hover:text-blue-400 transition">Sertifikat</a>
+                <a href="#projects" class="hover:text-primary dark:hover:text-blue-400 transition">Proyek</a>
                 <a href="#contact" class="hover:text-primary dark:hover:text-blue-400 transition">Kontak</a>
             </nav>
 
@@ -81,6 +83,7 @@
             <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100 dark:hover:bg-slate-800">Pengalaman</a>
             <a href="#education" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100 dark:hover:bg-slate-800">Pendidikan</a>
             <a href="#certificates" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100 dark:hover:bg-slate-800">Sertifikat</a>
+            <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100 dark:hover:bg-slate-800">Proyek</a>
             <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-100 dark:hover:bg-slate-800">Kontak</a>
         </div>
     </header>
@@ -101,7 +104,7 @@
                 <!-- Intro Text -->
                 <div class="text-center md:text-left flex-1">
                     <span class="inline-block px-3 py-1 bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-300 rounded-full text-xs font-semibold tracking-wide uppercase mb-3">
-                        IT Support & Infrastructure Specialist
+                        IT Support & Infrastructure
                     </span>
                     <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-2">
                         Muhammad Verdiansyah, <span class="text-primary dark:text-blue-400">S.Kom.</span>
@@ -363,53 +366,162 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-16 bg-gray-100 dark:bg-slate-800/50">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-100 dark:bg-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Informasi Kontak</h2>
-                <p class="text-gray-600 dark:text-gray-400 mt-2">Jangan ragu untuk menghubungi saya untuk peluang kerja atau diskusi</p>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Portofolio Proyek</h2>
+                <p class="text-gray-600 dark:text-gray-400 mt-2">Sistem Aplikasi Management Asset yang dikembangkan di PT Mitra Bisnis Madani</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Phone -->
-                <a href="https://wa.me/62895380980063" target="_blank" class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-gray-100 dark:border-slate-700 text-center hover:border-primary transition group">
-                    <div class="w-12 h-12 mx-auto bg-blue-100 dark:bg-blue-900/40 text-primary dark:text-blue-300 rounded-full flex items-center justify-center mb-3 group-hover:scale-110 transition">
-                        <i class="fas fa-phone-alt"></i>
+            <!-- Main Featured Project Card -->
+            <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-gray-100 dark:border-slate-700 overflow-hidden mb-10">
+                <div class="p-6 md:p-8 border-b border-gray-100 dark:border-slate-700 flex flex-col md:flex-row md:items-center justify-between gap-4">
+                    <div>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-300 rounded-full text-xs font-semibold uppercase tracking-wider">
+                            Enterprise Web Application
+                        </span>
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mt-2">Asset Management System (MBM)</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Sistem informasi pengelolaan, pengadaan, dan monitoring aset perusahaan (Kendaraan Mobil & Motor) berbasis web.</p>
                     </div>
-                    <h3 class="font-bold text-sm text-gray-900 dark:text-white">Telepon / WhatsApp</h3>
-                    <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">0895380980063</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2.5 py-1 bg-gray-100 dark:bg-slate-700 text-gray-700 dark:text-gray-300 text-xs rounded-md font-medium">PHP</span>
+                        <span class="px-2.5 py-1 bg-gray-100 dark:bg-slate-700 text-gray-700 dark:text-gray-300 text-xs rounded-md font-medium">SQL</span>
+                        <span class="px-2.5 py-1 bg-gray-100 dark:bg-slate-700 text-gray-700 dark:text-gray-300 text-xs rounded-md font-medium">JavaScript</span>
+                        <span class="px-2.5 py-1 bg-gray-100 dark:bg-slate-700 text-gray-700 dark:text-gray-300 text-xs rounded-md font-medium">FPDF/Export</span>
+                    </div>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Project Screen 1: Login -->
+                    <div class="group rounded-xl overflow-hidden border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-900">
+                        <div class="overflow-hidden h-52 bg-gray-200 dark:bg-slate-900">
+                            <a href="https://ibb.co.com/ymkGh4LQ"><img src="https://i.ibb.co.com/GfMBsHg5/login.png" alt="login" border="0"></a>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-gray-900 dark:text-white text-sm">1. Halaman Login & Autentikasi</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Sistem portal autentikasi pengguna dengan hak akses terproteksi (Multi-role Administrator & Super Admin).</p>
+                        </div>
+                    </div>
+
+                    <!-- Project Screen 2: Dashboard Overview -->
+                    <div class="group rounded-xl overflow-hidden border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-900">
+                        <div class="overflow-hidden h-52 bg-gray-200 dark:bg-slate-900">
+                           <a href="https://ibb.co.com/p6wgvfFr"><img src="https://i.ibb.co.com/twKSMqrP/home.png" alt="home" border="0"></a>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-gray-900 dark:text-white text-sm">2. Monitoring Aset Real-time (Home)</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Dashboard ringkasan jumlah status kendaraan (Disewakan, Jatuh Tempo, Operasional, SPK) secara langsung.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project Screen 3: New Dashboard Procurement -->
+                    <div class="group rounded-xl overflow-hidden border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-900">
+                        <div class="overflow-hidden h-52 bg-gray-200 dark:bg-slate-900">
+                            <a href="https://ibb.co.com/Vc3tJwTV"><img src="https://i.ibb.co.com/TxrkYWtc/dashboard-new.png" alt="dashboard-new" border="0"></a>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-gray-900 dark:text-white text-sm">3. Workflow Pengadaan & Leasing</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Manajemen modul workflow meliputi Purchase Order, BAST, Lelang, Kontrak Leasing, serta monitoring divisi terkait.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project Screen 4: SPK Pajak STNK -->
+                    <div class="group rounded-xl overflow-hidden border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-900">
+                        <div class="overflow-hidden h-52 bg-gray-200 dark:bg-slate-900">
+                           <a href="https://ibb.co.com/MD6rKBQv"><img src="https://i.ibb.co.com/VWmRbw51/menu-spk-pajak.png" alt="menu-spk-pajak" border="0"></a>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-gray-900 dark:text-white text-sm">4. Pengajuan SPK Pajak & Import Excel</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Form pencarian, pemrosesan perpanjangan STNK/Pajak, serta integrasi pencetakan dan import data dari Excel.</p>
+                        </div>
+                    </div>
+
+                    <!-- Project Screen 5: Cetak PDF Surat Perintah Kerja -->
+                    <div class="group rounded-xl overflow-hidden border border-gray-200 dark:border-slate-700 bg-gray-50 dark:bg-slate-900 md:col-span-2">
+                        <div class="overflow-hidden h-64 bg-gray-200 dark:bg-slate-900">
+                            <a href="https://ibb.co.com/S73WmJs2"><img src="https://i.ibb.co.com/CsHN9W1q/pdf-spk.png" alt="pdf-spk" border="0"></a>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="font-bold text-gray-900 dark:text-white text-sm">5. Cetak Otomatis PDF Surat Perintah Kerja (SPK)</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Fitur pendukung pembuatan dokumen formal PDF secara otomatis lengkap dengan tabel rincian data perpanjangan pajak regional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Informasi Kontak</h2>
+                <p class="text-gray-600 dark:text-gray-400 mt-2">Mari terhubung! Silakan hubungi saya melalui saluran kontak di bawah ini</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                <!-- Phone / WhatsApp Card -->
+                <a href="https://wa.me/62895380980063" target="_blank" class="p-6 bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm hover:shadow-md transition text-center group">
+                    <div class="w-14 h-14 mx-auto mb-4 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-900 dark:text-white text-lg">Telepon / WhatsApp</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300 mt-1">0895380980063</p>
+                    <span class="inline-block text-xs text-green-600 dark:text-green-400 font-medium mt-3">Klik untuk chat WhatsApp &rarr;</span>
                 </a>
 
-                <!-- Email -->
-                <a href="mailto:muhammadverdi1405@gmail.com" class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-gray-100 dark:border-slate-700 text-center hover:border-primary transition group">
-                    <div class="w-12 h-12 mx-auto bg-blue-100 dark:bg-blue-900/40 text-primary dark:text-blue-300 rounded-full flex items-center justify-center mb-3 group-hover:scale-110 transition">
-                        <i class="fas fa-envelope"></i>
+                <!-- Email Card -->
+                <a href="mailto:muhammadverdi1405@gmail.com" class="p-6 bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm hover:shadow-md transition text-center group">
+                    <div class="w-14 h-14 mx-auto mb-4 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        <i class="far fa-envelope"></i>
                     </div>
-                    <h3 class="font-bold text-sm text-gray-900 dark:text-white">Email</h3>
-                    <p class="text-xs text-gray-600 dark:text-gray-400 mt-1 break-all">muhammadverdi1405@gmail.com</p>
+                    <h3 class="font-bold text-gray-900 dark:text-white text-lg">Email</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300 mt-1">muhammadverdi1405@gmail.com</p>
+                    <span class="inline-block text-xs text-blue-600 dark:text-blue-400 font-medium mt-3">Kirim Email &rarr;</span>
                 </a>
 
-                <!-- Address -->
-                <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-gray-100 dark:border-slate-700 text-center">
-                    <div class="w-12 h-12 mx-auto bg-blue-100 dark:bg-blue-900/40 text-primary dark:text-blue-300 rounded-full flex items-center justify-center mb-3">
+                <!-- Location Card -->
+                <div class="p-6 bg-white dark:bg-slate-800 rounded-2xl border border-gray-100 dark:border-slate-700 shadow-sm text-center">
+                    <div class="w-14 h-14 mx-auto mb-4 bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400 rounded-full flex items-center justify-center text-2xl">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
-                    <h3 class="font-bold text-sm text-gray-900 dark:text-white">Alamat Domisili</h3>
-                    <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Jalan Pitara Gg Ta'lim RT 003 RW 015 NO 153 Pancoran Mas, Kota DEPOK 16436</p>
+                    <h3 class="font-bold text-gray-900 dark:text-white text-lg">Alamat</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300 mt-1 leading-relaxed">
+                        Jalan Pitara Gg Ta'lim RT 003 RW 015 NO 153 Pancoran Mas, Kota DEPOK 16436
+                    </p>
+                </div>
+            </div>
+
+            <!-- Quick Action Callout -->
+            <div class="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 text-white text-center shadow-lg">
+                <h3 class="text-2xl font-bold mb-2">Tertarik Bekerja Sama atau Rekrutmen?</h3>
+                <p class="text-blue-100 max-w-2xl mx-auto mb-6">Saya siap berkontribusi sebagai IT Support, IT Infrastructure, maupun Developer di perusahaan Anda.</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="https://wa.me/62895380980063" target="_blank" class="px-6 py-3 bg-white text-blue-600 hover:bg-blue-50 font-semibold rounded-lg shadow transition flex items-center gap-2">
+                        <i class="fab fa-whatsapp text-lg"></i> Chat via WhatsApp
+                    </a>
+                    <a href="mailto:muhammadverdi1405@gmail.com" class="px-6 py-3 bg-blue-700 hover:bg-blue-800 text-white font-semibold rounded-lg transition flex items-center gap-2 border border-blue-400">
+                        <i class="far fa-envelope text-lg"></i> Kirim Pesan Email
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="py-8 border-t border-gray-200 dark:border-slate-800 text-center text-xs text-gray-500 dark:text-gray-400">
-        <p>&copy; 2026 Muhammad Verdiansyah, S.Kom. All rights reserved.</p>
+    <footer class="bg-white dark:bg-slate-900 border-t border-gray-200 dark:border-slate-800 py-8">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+                &copy; 2024 Muhammad Verdiansyah, S.Kom. All rights reserved.
+            </p>
+        </div>
     </footer>
 
-    <!-- JavaScript logic -->
+    <!-- JavaScript logic for Menu Toggle & Dark Mode -->
     <script>
-        // Dark Mode Controller
+        // Dark Mode Logic
         const themeToggleBtn = document.getElementById('theme-toggle');
         const darkIcon = document.getElementById('theme-toggle-dark-icon');
         const lightIcon = document.getElementById('theme-toggle-light-icon');
@@ -437,7 +549,7 @@
             } else {
                 if (document.documentElement.classList.contains('dark')) {
                     document.documentElement.classList.remove('dark');
-                    localStorage.setItem('color-theme', 'dark');
+                    localStorage.setItem('color-theme', 'light');
                 } else {
                     document.documentElement.classList.add('dark');
                     localStorage.setItem('color-theme', 'dark');
@@ -445,7 +557,7 @@
             }
         });
 
-        // Mobile Menu Controller
+        // Mobile Menu Toggle Logic
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 
@@ -453,8 +565,9 @@
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Close mobile menu on click link
-        document.querySelectorAll('#mobile-menu a').forEach(link => {
+        // Close mobile menu when link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
             });
